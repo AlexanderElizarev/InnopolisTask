@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FA37EAF1B542AE400110E44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA37EAE1B542AE400110E44 /* main.m */; };
+		1FA37EB21B542AE400110E44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA37EB11B542AE400110E44 /* AppDelegate.m */; };
+		1FA37EB51B542AE400110E44 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA37EB41B542AE400110E44 /* ViewController.m */; };
+		1FA37EB81B542AE400110E44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FA37EB61B542AE400110E44 /* Main.storyboard */; };
+		1FA37EBA1B542AE400110E44 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FA37EB91B542AE400110E44 /* Images.xcassets */; };
+		1FA37EBD1B542AE400110E44 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FA37EBB1B542AE400110E44 /* LaunchScreen.xib */; };
+		1FA37EC91B542AE400110E44 /* InnopolisTaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA37EC81B542AE400110E44 /* InnopolisTaskTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FA37EC31B542AE400110E44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FA37EA11B542AE400110E44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FA37EA81B542AE400110E44;
+			remoteInfo = InnopolisTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FA37EA91B542AE400110E44 /* InnopolisTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InnopolisTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FA37EAD1B542AE400110E44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FA37EAE1B542AE400110E44 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1FA37EB01B542AE400110E44 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1FA37EB11B542AE400110E44 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1FA37EB31B542AE400110E44 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1FA37EB41B542AE400110E44 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1FA37EB71B542AE400110E44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FA37EB91B542AE400110E44 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1FA37EBC1B542AE400110E44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1FA37EC21B542AE400110E44 /* InnopolisTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InnopolisTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FA37EC71B542AE400110E44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FA37EC81B542AE400110E44 /* InnopolisTaskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InnopolisTaskTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FA37EA61B542AE400110E44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FA37EBF1B542AE400110E44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FA37EA01B542AE400110E44 = {
+			isa = PBXGroup;
+			children = (
+				1FA37EAB1B542AE400110E44 /* InnopolisTask */,
+				1FA37EC51B542AE400110E44 /* InnopolisTaskTests */,
+				1FA37EAA1B542AE400110E44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FA37EAA1B542AE400110E44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FA37EA91B542AE400110E44 /* InnopolisTask.app */,
+				1FA37EC21B542AE400110E44 /* InnopolisTaskTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FA37EAB1B542AE400110E44 /* InnopolisTask */ = {
+			isa = PBXGroup;
+			children = (
+				1FA37EB01B542AE400110E44 /* AppDelegate.h */,
+				1FA37EB11B542AE400110E44 /* AppDelegate.m */,
+				1FA37EB31B542AE400110E44 /* ViewController.h */,
+				1FA37EB41B542AE400110E44 /* ViewController.m */,
+				1FA37EB61B542AE400110E44 /* Main.storyboard */,
+				1FA37EB91B542AE400110E44 /* Images.xcassets */,
+				1FA37EBB1B542AE400110E44 /* LaunchScreen.xib */,
+				1FA37EAC1B542AE400110E44 /* Supporting Files */,
+			);
+			path = InnopolisTask;
+			sourceTree = "<group>";
+		};
+		1FA37EAC1B542AE400110E44 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FA37EAD1B542AE400110E44 /* Info.plist */,
+				1FA37EAE1B542AE400110E44 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1FA37EC51B542AE400110E44 /* InnopolisTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				1FA37EC81B542AE400110E44 /* InnopolisTaskTests.m */,
+				1FA37EC61B542AE400110E44 /* Supporting Files */,
+			);
+			path = InnopolisTaskTests;
+			sourceTree = "<group>";
+		};
+		1FA37EC61B542AE400110E44 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FA37EC71B542AE400110E44 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FA37EA81B542AE400110E44 /* InnopolisTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FA37ECC1B542AE400110E44 /* Build configuration list for PBXNativeTarget "InnopolisTask" */;
+			buildPhases = (
+				1FA37EA51B542AE400110E44 /* Sources */,
+				1FA37EA61B542AE400110E44 /* Frameworks */,
+				1FA37EA71B542AE400110E44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InnopolisTask;
+			productName = InnopolisTask;
+			productReference = 1FA37EA91B542AE400110E44 /* InnopolisTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FA37EC11B542AE400110E44 /* InnopolisTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FA37ECF1B542AE400110E44 /* Build configuration list for PBXNativeTarget "InnopolisTaskTests" */;
+			buildPhases = (
+				1FA37EBE1B542AE400110E44 /* Sources */,
+				1FA37EBF1B542AE400110E44 /* Frameworks */,
+				1FA37EC01B542AE400110E44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FA37EC41B542AE400110E44 /* PBXTargetDependency */,
+			);
+			name = InnopolisTaskTests;
+			productName = InnopolisTaskTests;
+			productReference = 1FA37EC21B542AE400110E44 /* InnopolisTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FA37EA11B542AE400110E44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = UNICODE;
+				TargetAttributes = {
+					1FA37EA81B542AE400110E44 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					1FA37EC11B542AE400110E44 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 1FA37EA81B542AE400110E44;
+					};
+				};
+			};
+			buildConfigurationList = 1FA37EA41B542AE400110E44 /* Build configuration list for PBXProject "InnopolisTask" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FA37EA01B542AE400110E44;
+			productRefGroup = 1FA37EAA1B542AE400110E44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FA37EA81B542AE400110E44 /* InnopolisTask */,
+				1FA37EC11B542AE400110E44 /* InnopolisTaskTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FA37EA71B542AE400110E44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FA37EB81B542AE400110E44 /* Main.storyboard in Resources */,
+				1FA37EBD1B542AE400110E44 /* LaunchScreen.xib in Resources */,
+				1FA37EBA1B542AE400110E44 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FA37EC01B542AE400110E44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FA37EA51B542AE400110E44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FA37EB51B542AE400110E44 /* ViewController.m in Sources */,
+				1FA37EB21B542AE400110E44 /* AppDelegate.m in Sources */,
+				1FA37EAF1B542AE400110E44 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FA37EBE1B542AE400110E44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FA37EC91B542AE400110E44 /* InnopolisTaskTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FA37EC41B542AE400110E44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FA37EA81B542AE400110E44 /* InnopolisTask */;
+			targetProxy = 1FA37EC31B542AE400110E44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1FA37EB61B542AE400110E44 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FA37EB71B542AE400110E44 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1FA37EBB1B542AE400110E44 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FA37EBC1B542AE400110E44 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FA37ECA1B542AE400110E44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1FA37ECB1B542AE400110E44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FA37ECD1B542AE400110E44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InnopolisTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1FA37ECE1B542AE400110E44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InnopolisTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1FA37ED01B542AE400110E44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = InnopolisTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InnopolisTask.app/InnopolisTask";
+			};
+			name = Debug;
+		};
+		1FA37ED11B542AE400110E44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = InnopolisTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InnopolisTask.app/InnopolisTask";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FA37EA41B542AE400110E44 /* Build configuration list for PBXProject "InnopolisTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FA37ECA1B542AE400110E44 /* Debug */,
+				1FA37ECB1B542AE400110E44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FA37ECC1B542AE400110E44 /* Build configuration list for PBXNativeTarget "InnopolisTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FA37ECD1B542AE400110E44 /* Debug */,
+				1FA37ECE1B542AE400110E44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1FA37ECF1B542AE400110E44 /* Build configuration list for PBXNativeTarget "InnopolisTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FA37ED01B542AE400110E44 /* Debug */,
+				1FA37ED11B542AE400110E44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FA37EA11B542AE400110E44 /* Project object */;
+}
